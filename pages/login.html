@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+    <img src="../assets/imgs/logo/logo.png" alt="logo.png">    
+
+    <main>
+        <div>
+            <h1>Welcome Back</h1>
+            <p>Sign in with your data that you entered during your registration</p>
+        </div>
+
+        <form action="./profile.html">
+                <div class="ctText">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" />
+                </div>
+
+                <div class="ctText">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter your password" />
+                </div>
+
+                <div>
+                    <a href="#">Forgot your password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+        </form>
+
+        <div>
+            <div>
+                <hr>
+                <p>Or</p>
+                <hr>
+            </div>
+
+            <div>
+                <div class="loginCard">
+                    <a href ="#">
+                        <img src="../assets/imgs/icon/icon-google.png" alt="google.png">
+                         Google
+                    </a>
+                </div>
+
+                <div class="loginCard">
+                    <a href ="#">
+                        <img src="../assets/imgs/icon/icon-facebook.png" alt="facebook.png">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

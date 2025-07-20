@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style/ticket-result.css" />
+    <link rel="stylesheet" href="../style/global.css" />
+  </head>
+  <body>
+    <header>
+        <div><img src="../assets/imgs/logo/logo-1.png" alt="logo.png"></div>
+
+        <nav>
+            <div><a href="../index.html">Home</a></div>
+            <div><a href="../pages/movie.html">Movie</a></div>
+            <div><a href="#">Buy Ticket</a></div>
+        </nav>
+
+        <div>   
+            <a href="./login.html">Sign In</a>
+            <a href="./signUp.html">Sign Up</a>
+        </div>
+    </header>
+
+
+    <!-- main -->
+     <main class="tickett">
+
+    
+    <main class="ticket-container">
+        <!-- Left side with movie poster background -->
+        <section class="poster-section">
+            <div class="poster-content">
+                <img  src="/assets/imgs/logo/logo.png" alt="">
+                <h2 class="thank-you">Thankyou For Purchasing</h2>
+                <p class="description">Lorem ipsum dolor sit amet consectetur. Quam pretium pretium tempor integer sed magna et.</p>
+                <div class="download-prompt">
+                    <p>Please Download Your Ticket</p>
+                    <span class="arrow">→</span>
+                </div>
+            </div>
+            <!-- Movie poster will be added as background in CSS -->
+        </section>
+
+        <!-- Right side with ticket details -->
+        <section class="ticket-details">
+            <div class="ticket-card">
+                <!-- QR code placeholder -->
+                <div class="qr-code-container">
+                    <div class="qr-code">
+                        <img src="/assets/imgs/ticket-result/QR Code 1.png" alt="">
+                    </div>
+                    <!-- Perforated edge with cutouts -->
+                    <div class="perforation">
+                        <div class="cutout left"></div>
+                        <div class="dashed-line"></div>
+                        <div class="cutout right"></div>
+                    </div>
+                </div>
+
+                <!-- Ticket information -->
+                <div class="ticket-info">
+                    <div class="info-row">
+                        <div class="info-column">
+                            <p class="info-label">Movie</p>
+                            <p class="info-value">Spider-Man: ...</p>
+                        </div>
+                        <div class="info-column">
+                            <p class="info-label">Category</p>
+                            <p class="info-value">PG-13</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-column">
+                            <p class="info-label">Date</p>
+                            <p class="info-value">07 Jul</p>
+                        </div>
+                        <div class="info-column">
+                            <p class="info-label">Time</p>
+                            <p class="info-value">2:00pm</p>
+                        </div>
+                    </div>
+
+                    <div class="info-row">
+                        <div class="info-column">
+                            <p class="info-label">Count</p>
+                            <p class="info-value">3 pcs</p>
+                        </div>
+                        <div class="info-column">
+                            <p class="info-label">Seats</p>
+                            <p class="info-value">C4, C5, C6</p>
+                        </div>
+                    </div>
+
+                    <div class="total-row">
+                        <p class="total-label">Total</p>
+                        <p class="total-value">$30.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div class="action-buttons">
+                <button class="download-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download
+                </button>
+                <a href="../index.html"><button class="done-btn">Done</button></a>
+            </div>
+        </section>
+    </main>
+    </main>
+    
+
+     <footer>
+        <div>
+            <div>
+                <img src="../assets/imgs/logo/logo-1.png" alt="logo-1.png">
+                <p>Stop waiting in line. Buy tickets conveniently, watch movies quietly.</p>
+            </div>
+
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href="">Cinemas</a></li>
+                    <li><a href="">Movies List</a></li>
+                    <li><a href="">My Ticket</a></li>
+                    <li><a href="">Notification</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><img src="../assets/imgs/home/sponsor/sp1.png" alt="sponsor-1.png"></li>
+                    <li><img src="../assets/imgs/home/sponsor/sp2.png" alt="sponsor-2.png"></li>
+                    <li><img src="../assets/imgs/home/sponsor/sp3.png" alt="sponsor-3.png"></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Explore</h2>
+                <ul>
+                    <li><a href=""><img src="../assets/imgs/home/feather/sp-facebook.png" alt="icon-fb.png">Tickitz Cinema id</a></li>
+                    <li><a href=""><img src="../assets/imgs/home/feather/sp-ig.png" alt="icon-ig.png">tickitz.id</a></li>
+                    <li><a href=""><img src="../assets/imgs/home/feather/sp-twitter.png" alt="icon-twitter.png">tickitz.id</a></li>
+                    <li><a href=""><img src="../assets/imgs/home/feather/sp-yt.png" alt="icon-yt.png">Tickitz Cinema id</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div><p>© 2020 Tickitz. All Rights Reserved.</p></div>
+            
+    </footer>
+    
+    </main>
+    
+  </body>
+</html>

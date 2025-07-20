@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/signUp.css">
+</head>
+
+<body>
+    <img src="../assets/imgs/logo/logo.png" alt="logo.png">    
+
+    <main>
+        <div>
+            <div> <div class="circle"> <h1>1</h1> </div> <p>Fill Form</p></div> <hr>
+            <div> <div class="circle"> <h1>2</h1> </div> <p>Active</p></div> <hr>
+            <div> <div class="circle"> <h1>3</h1> </div> <p>Done</p></div>
+        </div>
+
+        <div>
+            <form action="./login.html">
+                <div class="ctText">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" />
+                </div>
+
+                <div class="ctText">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass" placeholder="Enter your password" />
+                </div>
+
+                <div >
+                    <label for="termCheck">
+                        <input type="checkbox" name="termCheck" id="termCheck" value="true" /> 
+                        I agree to term & conditions
+                    </label>
+                </div>
+
+                <button type="submit">Join For Free Now</button>
+            </form>
+        </div>
+        
+        <div>
+            <p>Already have an account? <a href="./login.html">Log in</a></p>
+
+            <div>
+                <hr>
+                <p>Or</p>
+                <hr>
+            </div>
+
+            <div>
+                <div class="loginCard">
+                    <a href>
+                        <img src="../assets/imgs/icon/icon-google.png" alt="google.png">
+                         Google
+                    </a>
+                </div>
+
+                <div class="loginCard">
+                    <a href>
+                        <img src="../assets/imgs/icon/icon-facebook.png" alt="facebook.png">
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

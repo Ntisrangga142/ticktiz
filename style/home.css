@@ -1,0 +1,354 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+ 
+}
+
+.hero{
+    padding         : 54px 130px 0 130px;
+    margin-bottom   : 95px              ;
+
+    display         : flex          ;
+    flex-direction  : row           ;
+    justify-content : space-between ;
+
+    
+}
+
+.hero > div:nth-child(1){
+    padding: 71px 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 638px ;
+}
+
+h2 {
+    font-weight     : 700   ;
+    font-size       : 18px  ;
+    letter-spacing  : 0.75px;
+
+    color : #1D4ED8   ;
+}
+
+h1 {
+    font-weight     : 500   ;
+    font-size       : 48px  ;
+    letter-spacing  : 1px   ;
+
+    color : #121212   ;
+}
+
+.hero > div:nth-child(1) > p {
+    font-weight     : 400   ;
+    font-size       : 16px  ;
+    letter-spacing  : 0.75px;
+
+    color : #A0A3BD   ;
+}
+
+/* Hero Card */
+
+.hero > div:nth-child(2){
+    display: grid;
+    grid-row: 1fr 1fr;
+    grid-column: 1fr 1fr 1fr;
+
+    grid-template: 
+    'top-left top-right'
+    'bot-left top-right'
+    'bot-left bot-right'
+    ;
+    gap: 10px;
+}
+
+.hero > div:nth-child(2) > img{
+    width: 218px;
+}
+
+.hero > div:nth-child(2) > img:nth-child(1){
+    grid-area: top-left;
+    height: 170px;
+}
+
+.hero > div:nth-child(2) > img:nth-child(2){
+    grid-area: top-right;
+}
+
+.hero > div:nth-child(2) > img:nth-child(3){
+    grid-area: bot-left;
+}
+
+.hero > div:nth-child(2) > img:nth-child(4){
+    grid-area: bot-right;
+}
+
+/* WHY CHOOSE US */
+
+body > section:nth-child(3) {
+    padding         : 54px 130px 36px 130px;
+}
+
+body > section:nth-child(3) > div:nth-child(1) {
+    width: 100%;  
+}
+
+body > section:nth-child(3) > div:nth-child(1) > h1{
+    margin-top  : 14px  ;
+    width       : 638px ;
+
+    font-size: 32px;
+}
+
+body > section:nth-child(3) > div:nth-child(2) {
+    display         : flex  ;
+    flex-direction  : row   ;
+    gap             : 34px  ;
+
+    margin-top: 24px;
+}
+
+.card-choose-us  {
+    display         : flex      ;
+    flex-direction  : column    ;
+    gap             : 20px      ;
+}
+
+.card-choose-us > div:nth-child(1){
+    width   : 54px;
+    height  : 54px;
+
+    border-radius   : 100%                        ;
+    background-color: rgba(29, 78, 216, 0.2)    ;
+
+    display         : flex  ;
+    justify-content : center;
+    align-items     : center;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-choose-us > div:nth-child(3) > p{
+    font-weight     : 400   ;
+    font-size       : 16px  ;
+    letter-spacing  : 0.75px;
+    line-height     : 32px  ;
+
+    color : #A0A3BD   ;
+}
+
+/* Movies */
+.movies{
+    padding : 16px 130px   ;
+}
+
+.movies > div:nth-child(1){
+    display         : flex          ;
+    flex-direction  : column        ;
+    justify-content : space-between ;
+    align-items     : center        ;
+    gap             : 14px          ;
+}
+
+.movies > div:nth-child(1) > div:nth-child(1){
+    text-align: center;
+}
+
+.movies > div:nth-child(1) > div:nth-child(2){
+    text-align  : center;
+    width       : 545px ;
+}
+
+.movies > div:nth-child(1) > div:nth-child(2) > h1{
+    font-size   : 32px  ;
+    line-height : 45px  ;
+    font-weight : 400   ;
+}
+
+.movies > div:nth-child(1) > div:nth-child(3){
+    margin: 14px 0 0 0 ;
+}
+
+
+
+/* View All */
+.movies > div:nth-child(1) > div:nth-child(4) {
+    width: 100%;
+
+    margin-top: 25px;
+
+    text-align: center;
+}
+.movies > div > div:nth-child(4) > a{
+    font-weight     : 700   ;
+    font-size       : 18px  ;
+    letter-spacing  : 1px   ;
+    text-decoration : none  ;
+
+    color: #1D4ED8;
+}
+
+/* Upcoming */
+.upcoming {
+    padding         : 16px 130px    ;
+    margin-bottom   : 25px          ;
+
+    height          : auto          ;
+
+    display         : flex  ;
+    flex-direction  : column;
+    gap             : 28px  ;
+}
+
+.upcoming > div:nth-child(1) {
+    display                 : grid          ;
+    grid-template-columns   : 1fr 1fr       ;
+    grid-template-rows      : 1fr           ;
+    grid-template-areas     : 'left right'  ;
+
+}
+.upcoming > div:nth-child(1) > div:nth-child(1) {
+    display         : flex  ;
+    flex-direction  : column;
+    gap             : 14px  ;
+
+    grid-area: left;
+}
+.upcoming > div:nth-child(1) > div:nth-child(1) > h2{
+    font-weight     : 700   ;
+    font-size       : 18px  ;
+    letter-spacing  : 0.75px;
+
+    width: 100%;
+}
+.upcoming > div:nth-child(1) > div:nth-child(1) > h1{
+    font-weight     : 400   ;
+    font-size       : 32px  ;
+    letter-spacing  : 1px   ;
+
+    width: 100%;
+}
+
+.upcoming > div:nth-child(1) > div:nth-child(2) {
+    display         : flex      ;
+    flex-direction  : row       ;
+    justify-content : flex-end  ;
+    align-items     : center    ;
+    gap             : 14px      ;
+
+    grid-area: right;
+}
+.upcoming > div:nth-child(1) > div:nth-child(2) > a {
+    padding         : 15px;
+    border-radius   : 100%;
+
+    text-decoration : none;
+    text-align: center;
+}
+.upcoming > div:nth-child(1) > div:nth-child(2) > a > img {
+    width : 24px;
+    height: 24px;
+}
+.upcoming > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) {
+    background-color: #A0A3BD ;
+}
+.upcoming > div:nth-child(1) > div:nth-child(2) > a:nth-child(2) {
+    background-color:#1D4ED8 ;
+}
+
+.upcoming .movies-card h2 {
+    font-weight     : 700   ;
+    font-size       : 18px  ;
+    letter-spacing  : 0.75px;
+}
+
+.subscribe{
+    margin : 5px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header{
+    padding: 0 60px;
+  }
+  header > nav:nth-child(2) {
+    gap: 10px;
+  }
+  .hero{
+    padding: 0 60px;
+    margin: 0 0 0 0;
+  }
+  .hero  {
+    flex-direction: column;
+  }
+  .hero > div:nth-child(1) {
+    padding: 40px 0;
+  }
+  body > section:nth-child(3) {
+    padding: 54px 60px 36px 60px;
+  }
+  body > section:nth-child(3) > div:nth-child(2) {
+    flex-direction: column;
+  }
+  .movies-card{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+  }
+  .movies-card > div {
+        width: 250px;
+  }
+  .movies{
+    padding: 16px 60px;
+  }
+
+  .upcoming{
+    align-items: center;
+  }
+
+  
+.upcoming > div:nth-child(1) > div:nth-child(2) {
+    display: none;
+}
+.upcoming > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe{
+    padding: 85px 60px;
+    margin-bottom: 50px;
+}
+.subscribe > div:nth-child(1) > div:nth-child(2) {
+    flex-direction: column;
+}
+footer{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+       gap: 10px;
+}
+footer > div:nth-child(1) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+footer > div:nth-child(2) {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+}

@@ -1,0 +1,205 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/imgs/log-in/background-login.png);
+    background-attachment: fixed;
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    text-align: center; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > img:first-child {
+    margin-top  : 5rem      ;
+    width       : 17.25rem  ;
+    height      : 6.5rem    ;
+}
+
+/* Main Layout */
+main{
+    background-color: #FFFFFF ;
+
+    width           : 34.125rem ;
+    height          : 47.25rem  ;
+    border-radius   : 0.5rem    ;
+    margin-top      : 1.313rem  ;
+    margin-bottom   : 3.938rem  ;
+    padding         : 35px 73px ;
+
+    display         : flex  ;
+    flex-direction  : column;
+    align-items     : center;
+}
+
+main > div:first-child{
+    /* background-color: blue;
+
+    height  : 75px  ;
+    width   : 397px ; */
+
+    display         : flex  ;
+    flex-direction  : row   ;
+    justify-content : space-between;
+    align-items     : center;
+    gap             : 27px  ;
+    width           : 100%  ;
+
+
+}
+
+main > div:nth-child(2){
+    width : 100%        ;
+    margin: 46px 0 0 0  ;
+}
+
+main > div:nth-child(3){
+    width: 100%; 
+
+    margin: 26px 0 0 0;
+}
+
+/* Story Line Main */
+main > div:first-child div{
+    text-align: center;
+
+    display         : flex  ;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    gap             : 1vh   ;
+    flex-grow: 1;
+}
+
+.circle{
+    width   : 47px;
+    height  : 47px;
+
+    border-radius: 100%;
+
+    background-color: #A0A3BD;
+    color           : #FFFFFF;
+}
+
+.circle > h1{
+    font-size   : 1rem  ;
+    font-weight : 500   ;
+}
+
+main > div:first-child > div > p{
+    font-size   : 14px  ;
+    font-weight : 300   ;
+}
+
+main > div:first-child > hr{
+    border-top: 1px #A0A3BD;
+    border-style: dashed solid; 
+    
+    width       : 70px  ;
+}
+
+/* Story Line Active */
+main > div:first-child > div:first-child > div:first-child {
+    background-color: var(--blue-primary);
+    
+}
+
+main > div:first-child > div:first-child > p {
+    font-weight: 600;
+}
+
+/* Form */
+form > .ctText:nth-child(2){
+    margin-top: 26px;
+}
+
+form > div:nth-child(3){
+    width: 100%;
+}
+
+form > div:nth-child(3) > label{
+    font-weight : 400   ;
+    font-size   : 18px  ;
+    color       : #696F79;
+
+    padding-left: 25px;
+    margin-top  : 26px  ;
+    float       : left  ;
+
+    position: relative;
+}
+
+form > div:nth-child(3) > label > input{
+    background-color: var(--blue-primary);
+    
+    width   : 18px  ;
+    height  : 18px  ;
+
+    margin-right: 10px;
+    
+    position: absolute;
+    top : 3px   ;
+    left: 0     ;
+}
+
+
+/* Already have an account ? */
+main > div:nth-child(3) > p:first-child{
+  font-family           : "Inter", sans-serif;
+  font-optical-sizing   : auto  ;
+  font-weight           : 500   ;
+  font-style            : normal;
+  font-size             : 16px  ;
+
+  color: #696F79;
+}
+
+main > div:nth-child(3) > p:first-child > a{
+  color: var(--blue-primary);
+}
+
+/* Or */
+main > div:nth-child(3) > div:nth-child(2) {
+    display         : flex  ;
+    flex-direction  : row   ;
+    justify-content : space-between ;
+    align-items     : center        ;
+
+    width: 100%;
+
+    margin-top: 26px;
+}
+
+main > div:nth-child(3) > div:nth-child(2) > hr{
+    border-top  : 0.5px #AAAAAA;
+    border-style: solid ; 
+    opacity     : 25%   ;
+    
+    width       : 153px  ;
+    height      : 0      ;
+}
+
+main > div:nth-child(3) > div:nth-child(2) > p{
+    font-family           : "Inter", sans-serif;
+    font-optical-sizing   : auto  ;
+    font-weight           : 400   ;
+    font-style            : normal;
+    font-size             : 12px  ;
+
+    color: #AAAAAA;
+}
+
+/* Google Facebook */
+main > div:nth-child(3) > div:nth-child(3) {
+    display         : flex          ;
+    flex-direction  : row           ;
+    justify-content : space-between ;
+
+    margin-top: 26px;
+}
+

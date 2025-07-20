@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/imgs/log-in/background-login.png);
+    background-attachment: fixed;
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > img:first-child {
+    margin-top  : 5rem      ;
+    width       : 17.25rem  ;
+    height      : 6.5rem    ;
+}
+
+/* Main Layout */
+main{
+    background-color: #FFFFFF ;
+
+    width           : 546px ;
+    height          : 756px  ;
+    border-radius   : 0.5rem    ;
+    margin-top      : 1.313rem  ;
+    margin-bottom   : 3.938rem  ;
+    padding         : 74px 73px ;
+
+    display         : flex  ;
+    flex-direction  : column;
+    align-items     : flex-start;
+}
+
+main > header:nth-child(1) {
+    width: 400px;
+}
+
+main > form:nth-child(2) {
+    width: 100%;
+}
+
+main > div:nth-child(3) {
+    width: 100%;
+}
+
+/* Header Form */
+main > div:nth-child(1) > h1 {
+    font-weight     : 700   ;
+    font-size       : 32px  ;
+    letter-spacing  : 1px   ;
+}
+
+main > div:nth-child(1) > h1::after {
+    content: "👋";
+}
+
+main > div:nth-child(1) > p{
+    font-family         : "Inter", sans-serif;
+    font-optical-sizing : auto  ;
+    font-style          : normal;
+    font-weight         : 400   ;
+    font-size           : 18px  ;
+    letter-spacing      : 0.7%  ;
+
+    color: #A0A3BD;
+
+    margin-top: 34px;
+}
+    
+/* Form */
+form{
+    width: 100%;
+}
+
+.ctText{
+    margin-top: 26px;
+   
+}
+
+form > div:nth-child(3){
+    display         : flex      ;
+    flex-direction  : row       ;
+    justify-content : flex-end  ;
+    
+}
+
+form > div:nth-child(3) > a{
+    color: var(--blue-primary);
+
+    font-size       : 16px  ;
+    font-weight     : 400   ;
+    letter-spacing  : 1px   ;
+    margin-top      : 26px  ;
+}
+
+/* Or */
+main > div:nth-child(3) > div:nth-child(1) {
+    display         : flex  ;
+    flex-direction  : row   ;
+    justify-content : space-between ;
+    align-items     : center        ;
+
+    width: 100%;
+
+    margin-top: 26px;
+}
+
+main > div:nth-child(3) > div:nth-child(1) > hr{
+    border-top  : 0.5px #AAAAAA;
+    border-style: solid ; 
+    opacity     : 25%   ;
+    
+    width       : 153px  ;
+    height      : 0      ;
+}
+
+main > div:nth-child(3) > div:nth-child(1) > p{
+    font-family           : "Inter", sans-serif;
+    font-optical-sizing   : auto  ;
+    font-weight           : 400   ;
+    font-style            : normal;
+    font-size             : 12px  ;
+
+    color: #AAAAAA;
+}
+
+/* Google Facebook */
+main > div:nth-child(3) > div:nth-child(2) {
+    display         : flex          ;
+    flex-direction  : row           ;
+    justify-content : space-between ;
+
+    margin-top: 26px;
+    text-align: center;
+}
+

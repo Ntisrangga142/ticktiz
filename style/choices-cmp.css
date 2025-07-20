@@ -1,0 +1,31 @@
+.choices {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+  width: 866px;
+  height: 84px;
+  background: #ffffff;
+  border-radius: 16px;
+
+  > div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.75px;
+    border-bottom: 2px solid #1d4ed8;
+    height: 100%;
+  }
+
+  > a:nth-child(2) {
+    color: #aaaaaa;
+    border: none;
+    text-decoration: none;
+  }
+}
