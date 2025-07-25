@@ -463,9 +463,11 @@ footer > div:nth-child(3){
 
     /* Dropdown */
     .dropdown{
-        display : inline-block  ;
-        position: relative      ; 
+        display: none;
     }
+    .dropdown-menu{
+        display: none;
+}
     .dropdown > button:nth-child(1){
         width : 24px;
         height: 24px;
