@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <script src="../js/menu.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +29,21 @@
             <a href="./login.html">Sign In</a>
             <a href="./signUp.html">Sign Up</a>
         </div>
+
+        <div class="dropdown">
+            <button>
+                <img src="../assets/imgs/icon/bars-solid-full.svg" alt="icon">
+            </button>
+        </div>
     </header>
+    <nav class="dropdown-menu">
+        <div><a href="../index.html">Home</a></div>
+        <div><a href="../pages/movie.html">Movie</a></div>
+        <div><a href="#">Buy Ticket</a></div>
+        <div><a href="../pages/login.html">Sign In</a></div>
+        <div><a href="../pages/signUp.html">Sign Up</a></div>
+
+    </nav>
 
     <section class="hero">
         <h3>LIST MOVIE OF THE WEEK</h3>

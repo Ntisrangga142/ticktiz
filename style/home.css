@@ -6,7 +6,7 @@ body {
 }
 
 .hero{
-    padding         : 54px 130px 0 130px;
+    padding         : 54px 9.52% 0 9.52%;
     margin-bottom   : 95px              ;
 
     display         : flex          ;
@@ -88,22 +88,22 @@ h1 {
 
 /* WHY CHOOSE US */
 
-body > section:nth-child(3) {
+body > section:nth-child(4) {
     padding         : 54px 130px 36px 130px;
 }
 
-body > section:nth-child(3) > div:nth-child(1) {
+body > section:nth-child(4) > div:nth-child(1) {
     width: 100%;  
 }
 
-body > section:nth-child(3) > div:nth-child(1) > h1{
+body > section:nth-child(4) > div:nth-child(1) > h1{
     margin-top  : 14px  ;
     width       : 638px ;
 
     font-size: 32px;
 }
 
-body > section:nth-child(3) > div:nth-child(2) {
+body > section:nth-child(4) > div:nth-child(2) {
     display         : flex  ;
     flex-direction  : row   ;
     gap             : 34px  ;
@@ -272,83 +272,91 @@ h3{
     margin : 5px 0;
 }
 
-
-@media only screen and (max-width: 768px) {
-  header{
-    padding: 0 60px;
-  }
-  header > nav:nth-child(2) {
-    gap: 10px;
-  }
-  .hero{
-    padding: 0 60px;
-    margin: 0 0 0 0;
-  }
-  .hero  {
-    flex-direction: column;
-  }
-  .hero > div:nth-child(1) {
-    padding: 40px 0;
-  }
-  body > section:nth-child(3) {
-    padding: 54px 60px 36px 60px;
-  }
-  body > section:nth-child(3) > div:nth-child(2) {
-    flex-direction: column;
-  }
-  .movies-card{
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 35px;
-  }
-  .movies-card > div {
-        width: 250px;
-  }
-  .movies{
-    padding: 16px 60px;
-  }
-
-  .upcoming{
-    align-items: center;
-  }
-
-  
-.upcoming > div:nth-child(1) > div:nth-child(2) {
+.dropdown{
     display: none;
 }
-.upcoming > div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.dropdown-menu{
+    display: none;
 }
 
-.subscribe{
-    padding: 85px 60px;
-    margin-bottom: 50px;
-}
-.subscribe > div:nth-child(1) > div:nth-child(2) {
-    flex-direction: column;
-}
-footer{
-       display: flex;
-       flex-direction: column;
-       justify-content: flex-start;
-       align-items: flex-start;
-       gap: 10px;
-}
-footer > div:nth-child(1) {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-}
 
-footer > div:nth-child(2) {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
+@media only screen and (max-width: 768px) {
+    header{
+        padding: 0 60px;
+    }
+    header > nav:nth-child(2) {
+        gap: 10px;
+    }
+    .hero{
+        padding: 0 60px;
+        margin: 0 0 0 0;
+    }
+    .hero  {
+        flex-direction: column;
+    }
+    .hero > div:nth-child(1) {
+        padding: 40px 0;
+    }
+    body > section:nth-child(3) {
+        padding: 54px 60px 36px 60px;
+    }
+    body > section:nth-child(3) > div:nth-child(2) {
+        flex-direction: column;
+    }
+    .movies-card{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 35px;
+    }
+    .movies-card > div {
+            width: 250px;
+    }
+    .movies{
+        padding: 16px 60px;
+    }
+
+    .upcoming{
+        align-items: center;
+    }
+
+    
+    .upcoming > div:nth-child(1) > div:nth-child(2) {
+        display: none;
+    }
+    .upcoming > div:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subscribe{
+        padding: 85px 60px;
+        margin-bottom: 50px;
+    }
+    .subscribe > div:nth-child(1) > div:nth-child(2) {
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    footer > div:nth-child(1) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    footer > div:nth-child(2) {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
 }

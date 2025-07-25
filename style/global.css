@@ -461,6 +461,55 @@ footer > div:nth-child(3){
     letter-spacing  : 0.5px ;
 }
 
+    /* Dropdown */
+    .dropdown{
+        display : inline-block  ;
+        position: relative      ; 
+    }
+    .dropdown > button:nth-child(1){
+        width : 24px;
+        height: 24px;
+
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-menu {
+        display : none      ;
+        position: absolute  ;
+        overflow: auto      ;
+        z-index : 1         ;
+        width   : 100%      ;
+
+        transition: top 5s ease;
+    }
+    .dropdown-menu > div{
+        width: 100%;
+        height: 50px;
+        color: black;
+        display: block;
+        background-color: #FFFFFF;
+        padding: 0 9.52%;
+        display: flex;
+        align-items: center;
+    }
+    .dropdown-menu > div:last-child{
+        border-bottom: 1px solid grey;
+    }
+    .dropdown-menu > div:hover{
+        background-color: #1D4ED8;
+    }
+    .dropdown-menu > div:hover a{
+        color: #FFFFFF;
+    }
+    .dropdown-menu > div > a{
+        color: #000000;
+        text-decoration: none;
+        width: 100%;
+     }
+    .show {
+        display: block;        
+    }
+
 @media only screen and (max-width: 768px) {
   header{
     padding: 0 60px;
@@ -487,4 +536,59 @@ footer > div:nth-child(2) {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-}}
+}
+    header > nav:nth-child(2){
+        display: none;
+    }
+    header > div:nth-child(3){
+        display: none;
+    }
+    /* Dropdown */
+    .dropdown{
+        display : inline-block  ;
+        position: relative      ; 
+    }
+    .dropdown > button:nth-child(1){
+        width : 24px;
+        height: 24px;
+
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-menu {
+        display : none      ;
+        position: absolute  ;
+        overflow: auto      ;
+        z-index : 1         ;
+        width   : 100%      ;
+
+        transition: top 5s ease;
+    }
+    .dropdown-menu > div{
+        width: 100%;
+        height: 50px;
+        color: black;
+        display: block;
+        background-color: #FFFFFF;
+        padding: 0 9.52%;
+        display: flex;
+        align-items: center;
+    }
+    .dropdown-menu > div:last-child{
+        border-bottom: 1px solid grey;
+    }
+    .dropdown-menu > div:hover{
+        background-color: #1D4ED8;
+    }
+    .dropdown-menu > div:hover a{
+        color: #FFFFFF;
+    }
+    .dropdown-menu > div > a{
+        color: #000000;
+        text-decoration: none;
+        width: 100%;
+     }
+    .show {
+        display: block;        
+    }
+}

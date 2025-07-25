@@ -229,6 +229,60 @@ main {
   }
 }
 
+/* Dropdown */
+    .dropdown{
+        display : inline-block  ;
+        position: relative      ; 
+    }
+    .dropdown > button:nth-child(1){
+        width : 24px;
+        height: 24px;
+
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-menu {
+        display : none      ;
+        position: absolute  ;
+        overflow: auto      ;
+        z-index : 1         ;
+        width   : 100%      ;
+
+        transition: top 5s ease;
+    }
+    .dropdown-menu > div{
+        width: 100%;
+        height: 50px;
+        color: black;
+        display: block;
+        background-color: #FFFFFF;
+        padding: 0 9.52%;
+        display: flex;
+        align-items: center;
+    }
+    .dropdown-menu > div:last-child{
+        border-bottom: 1px solid grey;
+    }
+    .dropdown-menu > div:hover{
+        background-color: #1D4ED8;
+    }
+    .dropdown-menu > div:hover button{
+        color: #FFFFFF;
+    }
+    .dropdown-menu > div > button{
+        color: #000000;
+        text-decoration: none;
+        width: 100%;
+     }
+    .show {
+        display: block;        
+    }
+
+    .dropdown button{
+      width: 100%;
+      border-radius: 50%;
+    }
+
 @media only screen and (max-width: 768px) {
   main {
     flex-direction: column;
@@ -275,4 +329,57 @@ main {
       justify-items: flex-start;
       align-items: flex-start;
     }}
+
+    /* Dropdown */
+    .dropdown{
+        display : inline-block  ;
+        position: relative      ; 
+    }
+    .dropdown > button:nth-child(1){
+        width : 24px;
+        height: 24px;
+
+        background-color: transparent;
+        border: none;
+    }
+    .dropdown-menu {
+        display : none      ;
+        position: absolute  ;
+        z-index : 1         ;
+        width   : 100%      ;
+        top: 90px;
+        height: 50px;
+
+        transition: top 5s ease;
+    }
+    .dropdown-menu > div > button {
+      width: 100%;
+    }
+    .dropdown-menu > div{
+        width: 100%;
+        height: 50px;
+        color: black;
+        display: block;
+        background-color: #FFFFFF;
+        padding: 0 9.52%;
+        display: flex;
+        align-items: center;
+    }
+    .dropdown-menu > div:last-child{
+        border-bottom: 1px solid grey;
+    }
+    .dropdown-menu > div:hover{
+        background-color: #1D4ED8;
+    }
+    .dropdown-menu > div:hover button{
+        color: #FFFFFF;
+    }
+    .dropdown-menu > div > button{
+        color: #000000;
+        text-decoration: none;
+        width: 100px;
+     }
+    .show {
+        display: block;        
+    }
 }
